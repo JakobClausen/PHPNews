@@ -1,68 +1,138 @@
-* {
+*   {
     margin: 0;
     padding: 0;
-    background-color: #D7D2CB;
+    background-color: #f5f5f5;
+    }
+
+/* .container contains all website content */
+
+    .container {
+        height: 100vh;
+        width: auto;
+        margin: 0 5%;
+        }
+
+/* Navbar style beginning */
+
+    .navition {
+        border-bottom: 0.5px solid black;
+        border-top: 0.5px solid black;
+        padding: 10px;
+        }
+
+    nav h1 {
+        text-align: center;
+        margin: 30px;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 40px;
+        }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0px 10px;
+        }
+
+    nav ul li {
+        display: inline;
+        margin: 0 1%;
+        }
+
+    nav ul li p {
+        font-size: 12px;
+        opacity: 0.6;
+        }
+
+    nav ul li p:hover {
+        border-bottom: 1px solid black;
+        }
+
+/* Navbar style ending */
+
+/* Article Structure syle start */
+
+    .articleContainer {
+        margin-top: 30px;
+        }
+
+    .articleItem {
+        margin: 5%; 
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
+        }
+
+    .articleItem h1 {
+        display: inline-block;
+        font-family: 'Times New Roman', Times, serif;
+        }
+        
+    .articleItem p {
+        display: inline-block;
+        font-family: 'Times New Roman', Times, serif;
+        }
+
+    .heartLogo {
+        width: 15px;
+        float: right;
+        margin-top: 11px;
+        }
+
+    .likes {
+        float: right;
+        margin-top: 11px;
+        }
+
+    .articleImage {
+        width: 100%;
+        margin-top: 5%;
+        }
+
+    .imageUnderText {
+        margin: 5px 0px 20px 0px;
+        font-style: italic;
+        font-size: 12px;
+        }
+
+    .authorName {
+        margin-top: 25px;
+        font-style: italic;
+        }
+
+    .date {
+        float: right;
+        margin-top: 25px;
+        font-style: italic;
+        }
+
+/* Article Structure syle start */
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+
+    .articleText {
+        font-size: 20px;
+        }
+
+    .container {
+        margin: 0 10px;
+        }
+    .heartLogo {
+        margin-top: 12px;
+        }
+
+    .imageUnderText {
+        font-style: italic;
+        font-size: 16px;
+        margin-bottom: 35px;
+        }
 }
 
+@media only screen and (min-width: 1024px) {
 
-.container{
-    height: 100vh;
-    width: auto;
+    .container {
+        margin: 0 25%;
+        }
+}   
 
-    margin: 0 5%;
-
-}
-
-nav h1{
-    text-align: center;
-    margin: 30px;
-}
-ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0px 10px;
-}
-li {
-   display: inline;
-   margin: 0 1%;
-  }
-
-  li p{
-      font-size: 12px;
-      opacity: 0.6;
-  }
-  .articleContainer{
-      margin-top: 30px;
-      }
-
-  .articleItem{
-      margin: 5%; 
-      border-bottom: 1px solid black;
-      padding-bottom: 20px;
-  }
-  .articleItem h1 {
-      display: inline-block;
-  }
-  .likesHeart{
-    width: 15px;
     
-   float: right;
-}
-  .likes {
-    float: right;   
-}
-.articleImage{
-    width: 100%;
-}
-
-.articleItem p {
-    display: inline-block;
-}
-
-.date{
-    float: right;
-}
-
-
- 
