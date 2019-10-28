@@ -1,7 +1,29 @@
 # PHPNews
 A PHP school project 
+<img src="https://media.giphy.com/media/pzuye8RSBJFgk/source.gif" width="100%">
 
-# PHPNews
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+### Installing
+
+Clone or Fork the repository
+Open index.php from the *public* folder in your local server, ex localhost:8888
+
+## Built With
+
+* PHP
+* HTML
+* CSS
+
+## Authors
+
+* **Jakob Fridmar** 
+
+## Testers
+* 
+*
+
+'
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+YRGO 2019
