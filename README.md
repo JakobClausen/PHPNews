@@ -2,10 +2,10 @@
 A PHP school project 
 <img src="https://media.giphy.com/media/pzuye8RSBJFgk/source.gif" width="100%">
 
-### Installing
+### Using
 
 Clone or Fork the repository
-Open index.php from the *public* folder in your local server, ex localhost:8888
+Open index.php with a local php host on your computer 
 
 ## Built With
 
