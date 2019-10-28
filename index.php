@@ -19,17 +19,17 @@ require_once __DIR__.'/header.php';
                         <p class="likes"><?php echo $articles['likes'] ?></p>
 
                         <img class="articleImage" src="<?php echo $articles['img']?>" alt="<?php echo $articles['imgAlt']?>">
-                        
+
                         <p class="imageUnderText"><?php echo $articles['imageUnderText'] ?></p>
 
                         <p><?php echo getArticleContent($articles['content']); ?></p>
 
                         <p class="authorName">By: <?php echo getAuthorName($articles['authorId']) ?></p>
-                        
+
                         <p class="date"><?php echo getArticleDate($articles['publishDate']); ?></p>
 
                     </div>
-                
+
                 <?php endforeach; ?>
 
             </div>

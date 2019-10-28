@@ -5,8 +5,9 @@ require_once __DIR__.'/data.php';
 // Sorts the article feed by date (publishDate)
 foreach ($articleFeed as $key => $row) {
     $new_published[$key] = $row['publishDate'];
-     }
-    array_multisort($new_published, SORT_DESC,$articleFeed);
+		 }
+	array_multisort($new_published, SORT_DESC,$articleFeed);
+
 
 
 /**
