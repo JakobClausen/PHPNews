@@ -15,7 +15,7 @@ Open index.php with a local php host on your computer
 
 ## Authors
 
-* **Jakob Fridmar** 
+* **Jakob Fridmar** -- <a>https://github.com/JakobClausen</a>
 
 ## Testers
 * 
