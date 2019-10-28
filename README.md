@@ -1,5 +1,6 @@
 # PHPNews
 A PHP school project 
+
 <img src="https://media.giphy.com/media/pzuye8RSBJFgk/source.gif" width="100%">
 
 ### Using
