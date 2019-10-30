@@ -20,7 +20,7 @@ Open index.php with a local php host on your computer
 
 ## Testers
 * Oskar Joss
-* 
+* Andreas Pandzic
 
 '
 ## License
