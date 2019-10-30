@@ -19,8 +19,8 @@ Open index.php with a local php host on your computer
 * **Jakob Fridmar** -- <a>https://github.com/JakobClausen</a>
 
 ## Testers
+* Oskar Joss
 * 
-*
 
 '
 ## License
