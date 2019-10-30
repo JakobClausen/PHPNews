@@ -6,7 +6,8 @@ A PHP school project
 ### Using
 
 Clone or Fork the repository
-Open index.php with a local php host on your computer 
+Start a local php host on your computer in the Public folder. 
+Open index.php
 
 ## Built With
 
@@ -22,7 +23,9 @@ Open index.php with a local php host on your computer
 * Oskar Joss
 * Andreas Pandzic
 
-'
+## Code Review
+* Jesper Lundqvist
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
