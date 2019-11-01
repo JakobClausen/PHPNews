@@ -4,7 +4,7 @@ require_once __DIR__.'/functions.php';
 require_once __DIR__.'/header.php';
 
 ?>
-<!-- Article structure -->
+					<!-- Article structure start -->
 
             <div class="articleContainer">
 
@@ -32,7 +32,8 @@ require_once __DIR__.'/header.php';
 
                 <?php endforeach; ?>
 
-            </div>
+						</div>
+					<!-- Article structure end -->
 				</div>
 			<script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> <!-- Lazy loading images -->
 
