@@ -24,7 +24,7 @@ Open index.php
 * Andreas Pandzic
 
 ## Code Review
-* Jesper Lundqvist
+* **Jesper Lundqvist** 
 
 - It would had been fun with different article texts. You could have created 10 different article texts that you loop over.
 - master.css:9 - The class name is misspelled.
