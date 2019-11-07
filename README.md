@@ -26,6 +26,12 @@ Open index.php
 ## Code Review
 * Jesper Lundqvist
 
+- It would had been fun with different article texts. You could have created 10 different article texts that you loop over.
+- master.css:9 - The class name is misspelled.
+- master.css:65-73 - Duplication of code. You could have merged them by putting a comma between the different classes so you don’t have to write the code twice.
+- You could have added lazy loading to the images.
+- The images lacks alt attributes.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
